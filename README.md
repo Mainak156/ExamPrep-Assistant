@@ -19,7 +19,7 @@ This app allows students to upload their study notes (PDFs), automatically gener
 - 📝 Take a test based on generated questions  
 - 📊 AI auto-evaluates answers and provides marks + feedback  
 - 🔍 Uses **Chroma vector database** for efficient context retrieval  
-- 🦙 Powered by **Groq’s Llama 3-70B** via LangChain  
+- 🦙 Powered by **Groq’s Llama-3.3-70b-versatile** via LangChain  
 
 ---
 
@@ -29,8 +29,8 @@ This app allows students to upload their study notes (PDFs), automatically gener
 - 🖥️ Streamlit (UI)  
 - 🧠 LangChain  
 - 🗂️ Chroma Vector DB  
-- 🤖 HuggingFace Sentence Transformers (GTE-small)  
-- 🔥 Groq API (Llama 3-70B)  
+- 🤖 HuggingFace Model (thenlper/gte-small)  
+- 🔥 Groq API (Llama-3.3-70b-versatile)  
 - 📄 PyPDF2 (PDF extraction)  
 - 🌿 dotenv (for API key management)  
 
@@ -92,4 +92,4 @@ streamlit run app.py
 
 ---
 
-📚 **Made for students, by AI enthusiast!**
+📚 **Made for students!**
